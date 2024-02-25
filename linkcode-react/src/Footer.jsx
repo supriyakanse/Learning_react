@@ -1,8 +1,13 @@
 import ReactDOM from 'react-dom';
 
-let dayCount = 1;
-function Footer(){
-    return <p>{`we are into day ${dayCount} of react learnings !`}</p>;
+
+const footerStyle={
+    color:"black",
+    textAlign:"center",
+    fontSize:"10px"
+}
+function Footer(props){
+    return <p style={footerStyle}>Copyrights @ 2024</p>;
 }
 export default Footer;
 
