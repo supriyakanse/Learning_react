@@ -1,0 +1,85 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+background-color: #e0e0e0;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.img-container {
+  height: 50%;
+  width: 50%;
+}
+
+h4 {
+  color: green;
+}
+
+h1{
+  text-align: center;
+}
+
+#head{
+  text-align: center;
+  margin-top: 20%;
+}
+
+.product-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+
+}
+
+.product {
+  width: 30%; 
+  margin: 10px; 
+  text-align: center; 
+  border: dotted;
+  border-color: aqua;
+  border-radius: 80%;
+
+  border-radius: 34px;
+background: linear-gradient(145deg, #cacaca, #f0f0f0);
+box-shadow:  9px 9px 12px #9b9b9b,
+             -9px -9px 12px #ffffff;
+}
+
+
+.CreateClass{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.productForm{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.createBtn{
+  width: 3%;
+  background-color: purple;
+  margin-left: 5px;
+  border-radius: 30%;
+}
+.submitBtn{
+  width: 7%;
+  background-color: rgb(27, 170, 70);
+  margin-left: 5px;
+  margin-top: 2%;
+}
+.prodDeleteBtn{
+  background-color: red;
+  display: flex;
+  justify-content: center;
+  margin-left: 45%;
+  margin-top: 2%;
+  height: 5%;
+}
